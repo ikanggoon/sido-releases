@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIDO — License & Legal Notice</title>
+<meta name="description" content="SIDO 라이선스 및 법적 고지. SIDO는 100% 무료 소프트웨어입니다.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  /* 라이선스 페이지 전용 스타일 */
+  .license-page { max-width: 780px; margin: 0 auto; padding: 120px 28px 80px; }
+
+  .lp-header {
+    text-align: center;
+    margin-bottom: 48px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #eee;
+  }
+  .lp-logo { font-size: 36px; font-weight: 900; color: #5b6af0; letter-spacing: 4px; margin-bottom: 6px; }
+  .lp-subtitle { font-size: 13px; color: #aaa; letter-spacing: 1.5px; text-transform: uppercase; }
+  .lp-version {
+    display: inline-block; margin-top: 14px; padding: 3px 12px;
+    background: rgba(91,106,240,0.08); border: 1px solid rgba(91,106,240,0.2);
+    border-radius: 16px; font-size: 12px; font-weight: 600; color: #5b6af0;
+  }
+
+  .lp-section { margin-bottom: 40px; }
+  .lp-num { font-size: 11px; font-weight: 700; color: #5b6af0; letter-spacing: 2px; margin-bottom: 6px; opacity: 0.8; }
+  .lp-title { font-size: 18px; font-weight: 700; color: #1a1c2e; margin-bottom: 4px; }
+  .lp-title-en { font-size: 12px; color: #aaa; margin-bottom: 16px; }
+  .lp-body { font-size: 14px; color: #555; line-height: 1.8; }
+  .lp-body p { margin-bottom: 10px; }
+  .lp-body .en {
+    font-size: 12px; color: #aaa; margin-top: -2px; margin-bottom: 14px;
+    padding-left: 14px; border-left: 2px solid #eee;
+  }
+
+  .lp-box {
+    background: #fff; border: 1px solid #eee; border-radius: 12px;
+    padding: 24px 28px; margin: 20px 0;
+  }
+  .lp-box.accent { border-color: rgba(91,106,240,0.3); background: linear-gradient(135deg, rgba(91,106,240,0.04), transparent); }
+  .lp-box.warning { border-color: rgba(224,82,82,0.25); background: linear-gradient(135deg, rgba(224,82,82,0.04), transparent); }
+  .lp-box h4 { font-size: 14px; font-weight: 600; color: #5b6af0; margin-bottom: 10px; }
+  .lp-box.warning h4 { color: #e05252; }
+  .lp-box p, .lp-box li { font-size: 13px; color: #555; }
+
+  .lp-list { list-style: none; padding: 0; }
+  .lp-list li { position: relative; padding-left: 18px; margin-bottom: 8px; font-size: 13px; color: #555; }
+  .lp-list li::before { content: '\2014'; position: absolute; left: 0; color: #ccc; }
+
+  .lp-notice {
+    background: #fff; border: 1px dashed #dde0ec; border-radius: 12px;
+    padding: 28px; text-align: center; margin: 20px 0;
+  }
+  .lp-notice-icon { font-size: 24px; margin-bottom: 10px; display: block; }
+  .lp-notice h4 { font-size: 15px; font-weight: 600; color: #1a1c2e; margin-bottom: 8px; }
+  .lp-notice p { font-size: 13px; color: #666; max-width: 460px; margin: 0 auto; line-height: 1.7; }
+
+  .lp-divider { height: 1px; background: #eee; margin: 40px 0; }
+
+  .lp-footer {
+    margin-top: 48px; padding-top: 28px; border-top: 1px solid #eee;
+    text-align: center; font-size: 12px; color: #aaa; line-height: 2;
+  }
+  .lp-footer a { color: #5b6af0; text-decoration: none; }
+  .lp-footer a:hover { text-decoration: underline; }
+
+  @media (max-width: 600px) {
+    .license-page { padding: 100px 18px 60px; }
+    .lp-logo { font-size: 28px; }
+    .lp-box, .lp-notice { padding: 18px 20px; }
+  }
+</style>
+</head>
+<body>
+
+  <!-- NAV (홈페이지와 동일) -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <svg width="28" height="28" viewBox="0 0 40 40">
+          <defs>
+            <linearGradient id="lg" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#ff4d8d"/>
+              <stop offset="25%" stop-color="#f0842a"/>
+              <stop offset="50%" stop-color="#8dd440"/>
+              <stop offset="75%" stop-color="#36d6a0"/>
+              <stop offset="100%" stop-color="#36b4d6"/>
+            </linearGradient>
+          </defs>
+          <rect width="40" height="40" rx="10" fill="#1a1c2e"/>
+          <text x="50%" y="54%" text-anchor="middle" dominant-baseline="central"
+            font-family="'Noto Sans KR',sans-serif" font-weight="900" font-size="14"
+            fill="url(#lg)">SIDO</text>
+        </svg>
+        <a href="index.html" style="color:inherit;">SIDO</a>
+      </div>
+      <div class="nav-links">
+        <a href="index.html#features">Features</a>
+        <a href="index.html#download">Download</a>
+        <a href="index.html#changelog">Changelog</a>
+        <a href="license.html" style="color:#5b6af0;">License</a>
+      </div>
+    </div>
+  </nav>
+
+<div class="license-page">
+
+  <div class="lp-header">
+    <div class="lp-logo">SIDO</div>
+    <div class="lp-subtitle">License &amp; Legal Notice</div>
+    <div class="lp-version" id="lp-version"></div>
+  </div>
+
+  <!-- 01 -->
+  <div class="lp-section">
+    <div class="lp-num">01</div>
+    <div class="lp-title">라이선스 요약</div>
+    <div class="lp-title-en">License Summary</div>
+    <div class="lp-box accent">
+      <h4>SIDO는 100% 무료 소프트웨어입니다</h4>
+      <p>개인, 기업, 공공기관, 교육기관 등 누구나 어디서든 별도의 라이선스 구매 없이 자유롭게 사용할 수 있습니다. 상업적·비상업적 목적을 불문하며, 사용 기간이나 기능에 제한이 없습니다.</p>
+      <p style="font-size:11px; color:#aaa; margin-top:8px;">
+        SIDO is 100% free software. Anyone — individuals, businesses, government agencies, educational institutions — may use it freely without purchasing a license. There are no restrictions on commercial or non-commercial use, no time limits, and no feature gates.
+      </p>
+    </div>
+  </div>
+
+  <!-- 02 -->
+  <div class="lp-section">
+    <div class="lp-num">02</div>
+    <div class="lp-title">사용 허가 범위</div>
+    <div class="lp-title-en">Scope of Use</div>
+    <div class="lp-body">
+      <p>본 소프트웨어는 다음과 같은 조건 하에 사용이 허가됩니다:</p>
+      <div class="en">This software is licensed for use under the following terms:</div>
+      <ul class="lp-list">
+        <li>개인적, 교육적, 업무적, 상업적 등 모든 목적으로 자유롭게 사용할 수 있습니다.
+          <div class="en" style="margin-top:4px;">Free to use for personal, educational, professional, and commercial purposes.</div>
+        </li>
+        <li>설치 가능한 기기 수에 제한이 없습니다.
+          <div class="en" style="margin-top:4px;">No limit on the number of devices on which the software may be installed.</div>
+        </li>
+        <li>본 소프트웨어를 제3자에게 재배포, 판매, 대여, 임대하거나 2차 저작물을 만드는 것은 금지됩니다.
+          <div class="en" style="margin-top:4px;">Redistribution, resale, rental, leasing, or creation of derivative works is prohibited.</div>
+        </li>
+        <li>역컴파일, 디컴파일, 역공학(reverse engineering) 등의 행위는 금지됩니다.
+          <div class="en" style="margin-top:4px;">Reverse engineering, decompiling, or disassembling the software is prohibited.</div>
+        </li>
+        <li>소프트웨어에 포함된 저작권 표시, 상표, 기타 권리 고지를 제거하거나 변경할 수 없습니다.
+          <div class="en" style="margin-top:4px;">You may not remove or alter any copyright notices, trademarks, or proprietary notices.</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 03 -->
+  <div class="lp-section">
+    <div class="lp-num">03</div>
+    <div class="lp-title">지적재산권 및 소유권</div>
+    <div class="lp-title-en">Intellectual Property &amp; Ownership</div>
+    <div class="lp-body">
+      <p>SIDO의 모든 소스코드, 디자인, 아이콘, 텍스트 및 기타 구성 요소에 대한 저작권과 지적재산권은 개발자에게 귀속됩니다. 본 라이선스는 소프트웨어의 사용 권한만을 부여하며, 소유권을 이전하지 않습니다.</p>
+      <div class="en">All copyrights and intellectual property rights in the source code, design, icons, text, and other components of SIDO belong to the developer. This license grants only a right to use the software; it does not transfer ownership.</div>
+    </div>
+  </div>
+
+  <!-- 04 -->
+  <div class="lp-section">
+    <div class="lp-num">04</div>
+    <div class="lp-title">유료화 정책 및 후원</div>
+    <div class="lp-title-en">Monetization Policy &amp; Sponsorship</div>
+    <div class="lp-body">
+      <p>SIDO는 어떠한 유료화 계획도 없습니다. 향후에도 구독료, 일회성 결제, 인앱 구매 등의 과금 요소를 도입하지 않을 것입니다.</p>
+      <div class="en">SIDO has no monetization plans whatsoever. There will be no subscription fees, one-time payments, or in-app purchases introduced in the future.</div>
+    </div>
+    <div class="lp-body" style="margin-top:20px;">
+      <p>사용자의 자발적인 후원은 언제든 감사히 받고 있습니다. 후원은 전적으로 선택 사항이며, 후원 여부에 따른 기능 차별은 없습니다.</p>
+      <div class="en">Voluntary sponsorship is always gratefully accepted. Sponsorship is entirely optional with no feature differentiation.</div>
+    </div>
+    <div class="lp-notice">
+      <span class="lp-notice-icon">☕</span>
+      <h4>SIDO 개발을 응원해주세요</h4>
+      <p>커피 한 잔 값의 후원이 SIDO를 더 나은 도구로 만드는 데 큰 힘이 됩니다. 후원 방법은 준비 중이며, 곧 안내해 드리겠습니다.</p>
+      <p style="font-size:11px; color:#aaa; margin-top:6px;">
+        A small sponsorship goes a long way in keeping SIDO alive and improving. Sponsorship methods are being prepared and will be announced soon.
+      </p>
+      <span class="license-badge">후원 방법 준비 중 · Coming Soon</span>
+    </div>
+  </div>
+
+  <!-- 05 -->
+  <div class="lp-section">
+    <div class="lp-num">05</div>
+    <div class="lp-title">업데이트 및 지원</div>
+    <div class="lp-title-en">Updates &amp; Support</div>
+    <div class="lp-body">
+      <p>SIDO는 개발자의 일정에 따라 비정기적으로 업데이트됩니다. 소프트웨어는 자동 업데이트 기능을 포함하며, 업데이트가 제공될 경우 사용자에게 알림을 통해 안내합니다.</p>
+      <div class="en">SIDO is updated on an irregular schedule at the developer's discretion. The software includes an auto-update feature and will notify users when updates are available.</div>
+      <p>개발자는 정기적인 업데이트, 특정 기능의 추가, 또는 지속적인 기술 지원을 보장하지 않습니다.</p>
+      <div class="en">The developer does not guarantee regular updates, the addition of specific features, or ongoing technical support.</div>
+    </div>
+  </div>
+
+  <!-- 06 -->
+  <div class="lp-section">
+    <div class="lp-num">06</div>
+    <div class="lp-title">데이터 및 개인정보</div>
+    <div class="lp-title-en">Data &amp; Privacy</div>
+    <div class="lp-body">
+      <p>SIDO는 사용자의 모든 데이터를 로컬(사용자의 기기)에만 저장합니다. 외부 서버로의 데이터 전송은 자동 업데이트 확인을 위한 통신 외에는 일체 발생하지 않습니다.</p>
+      <div class="en">All user data is stored locally on the user's device only. No data is transmitted to external servers except for checking for automatic updates.</div>
+      <p>개발자는 사용자의 개인정보, 할 일 목록, 또는 기타 어떠한 사용 데이터도 수집하지 않습니다. 사용자의 행동을 추적하는 기능은 포함되어 있지 않습니다.</p>
+      <div class="en">The developer does not collect any personal information, to-do lists, or any other usage data. The software contains no user tracking functionality.</div>
+    </div>
+  </div>
+
+  <!-- 07 -->
+  <div class="lp-section">
+    <div class="lp-num">07</div>
+    <div class="lp-title">보증의 면책</div>
+    <div class="lp-title-en">Disclaimer of Warranty</div>
+    <div class="lp-box warning">
+      <h4>중요 고지 · Important Notice</h4>
+      <p>본 소프트웨어는 <strong>"있는 그대로(AS-IS)"</strong> 제공됩니다. 개발자는 소프트웨어의 상품성, 특정 목적에의 적합성, 비침해성, 또는 오류 없는 동작에 대해 명시적이거나 묵시적인 어떠한 보증도 제공하지 않습니다.</p>
+      <p style="font-size:11px; color:#aaa; margin-top:8px;">
+        THIS SOFTWARE IS PROVIDED <strong>"AS-IS"</strong> WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, OR ERROR-FREE OPERATION.
+      </p>
+    </div>
+  </div>
+
+  <!-- 08 -->
+  <div class="lp-section">
+    <div class="lp-num">08</div>
+    <div class="lp-title">책임의 제한</div>
+    <div class="lp-title-en">Limitation of Liability</div>
+    <div class="lp-body">
+      <p>어떠한 경우에도 개발자는 본 소프트웨어의 사용 또는 사용 불능으로 인해 발생하는 직접적, 간접적, 우발적, 특수적, 결과적 손해에 대해 책임을 지지 않습니다. 이는 데이터 손실, 업무 중단, 수익 손실 등을 포함하되 이에 국한되지 않습니다.</p>
+      <div class="en">In no event shall the developer be liable for any direct, indirect, incidental, special, or consequential damages arising out of the use or inability to use this software, including but not limited to loss of data, business interruption, or loss of profits.</div>
+      <p>사용자는 본 소프트웨어의 사용에 따른 모든 위험을 스스로 부담합니다.</p>
+      <div class="en">The user assumes all risks associated with the use of this software.</div>
+    </div>
+  </div>
+
+  <!-- 09 -->
+  <div class="lp-section">
+    <div class="lp-num">09</div>
+    <div class="lp-title">라이선스 종료</div>
+    <div class="lp-title-en">Termination</div>
+    <div class="lp-body">
+      <p>본 라이선스의 조건을 위반할 경우, 사용 권한은 별도의 통지 없이 자동으로 종료됩니다. 라이선스가 종료된 경우, 사용자는 소프트웨어의 모든 사본을 삭제해야 합니다.</p>
+      <div class="en">If you violate any terms of this license, your right to use the software terminates automatically without notice. Upon termination, you must delete all copies of the software.</div>
+    </div>
+  </div>
+
+  <!-- 10 -->
+  <div class="lp-section">
+    <div class="lp-num">10</div>
+    <div class="lp-title">약관 변경</div>
+    <div class="lp-title-en">Changes to Terms</div>
+    <div class="lp-body">
+      <p>개발자는 본 라이선스 약관을 언제든 변경할 수 있습니다. 변경 사항은 소프트웨어 업데이트 또는 공식 채널을 통해 공지됩니다. 변경된 약관이 적용된 이후 소프트웨어를 계속 사용하면 변경된 약관에 동의한 것으로 간주됩니다.</p>
+      <div class="en">The developer reserves the right to modify these license terms at any time. Changes will be communicated through software updates or official channels. Continued use of the software after changes take effect constitutes acceptance of the revised terms.</div>
+    </div>
+  </div>
+
+  <!-- 11 -->
+  <div class="lp-section">
+    <div class="lp-num">11</div>
+    <div class="lp-title">오픈소스 라이브러리 고지</div>
+    <div class="lp-title-en">Open Source Libraries Notice</div>
+    <div class="lp-body">
+      <p>SIDO는 다음의 오픈소스 라이브러리를 사용하고 있을 수 있으며, 각 라이브러리의 라이선스 조건이 적용됩니다. 해당 라이선스와 본 약관이 충돌하는 경우, 해당 오픈소스 라이브러리에 한하여 오픈소스 라이선스가 우선 적용됩니다.</p>
+      <div class="en">SIDO may use the following open source libraries, each governed by their respective license terms. Where those license terms conflict with this agreement, the open source license prevails for that component.</div>
+      <p style="font-size:12px; color:#aaa; margin-top:10px;">※ 사용 중인 오픈소스 라이브러리의 상세 목록은 GitHub 저장소에서 확인할 수 있습니다.</p>
+      <div class="en" style="font-size:11px;">A detailed list of open source libraries in use can be found on the GitHub repository.</div>
+    </div>
+  </div>
+
+  <div class="lp-divider"></div>
+
+  <!-- 개발자의 말 -->
+  <div class="lp-section" style="text-align:center;">
+    <div class="lp-body" style="max-width:540px; margin:0 auto;">
+      <p style="font-size:15px; color:#1a1c2e; font-weight:500; line-height:1.9;">
+        누구나 편하게 다양한 용도로 사용하고 활용하시길 바라며,<br>
+        작은 도움이라도 되길 진심으로 바랍니다.
+      </p>
+      <p style="font-size:12px; color:#aaa; margin-top:6px;">
+        I hope everyone can use SIDO comfortably for any purpose,<br>
+        and that it brings even a small bit of help to your day.
+      </p>
+      <p style="font-size:12px; color:#aaa; margin-top:20px;">— SIDO 개발자</p>
+    </div>
+  </div>
+
+  <div class="lp-footer">
+    <p>&copy; 2024–<span id="footer-year">2026</span> SIDO. All rights reserved.</p>
+    <p>
+      <a href="index.html">Home</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://github.com/ikanggoon/sido-releases" target="_blank">GitHub</a>
+      &nbsp;&middot;&nbsp; 본 문서의 최종 수정일: 2026년 3월
+    </p>
+    <p style="margin-top:6px; font-size:11px;">
+      본 라이선스는 법률 자문을 대체하지 않습니다.<br>
+      This license does not constitute legal advice.
+    </p>
+  </div>
+
+</div>
+
+<script>
+  // 최신 버전 자동 표시
+  (async function() {
+    try {
+      var res = await fetch('https://api.github.com/repos/ikanggoon/sido-releases/releases/latest');
+      if (res.ok) {
+        var data = await res.json();
+        var el = document.getElementById('lp-version');
+        if (el && data.tag_name) el.textContent = data.tag_name;
+      }
+    } catch(e) {}
+  })();
+  document.getElementById('footer-year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

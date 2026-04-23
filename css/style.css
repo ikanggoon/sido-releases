@@ -208,6 +208,45 @@ img { max-width: 100%; display: block; }
 .changelog-body li { margin-bottom: 3px; }
 .loading { text-align: center; color: #aaa; font-size: 14px; padding: 40px 0; }
 
+/* ── LICENSE & SUPPORT ── */
+.license-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px; max-width: 940px; margin: 0 auto;
+}
+.license-card {
+  background: #fff; border: 1px solid #eee;
+  border-radius: 16px; padding: 32px 28px;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.license-card:hover {
+  border-color: #5b6af0;
+  box-shadow: 0 4px 24px rgba(91,106,240,0.1);
+}
+.license-icon {
+  width: 44px; height: 44px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 22px;
+  background: rgba(91,106,240,0.08); border-radius: 12px;
+  margin-bottom: 16px;
+}
+.license-card h3 {
+  font-size: 16px; font-weight: 700; margin-bottom: 8px;
+  letter-spacing: -0.3px;
+}
+.license-card p { font-size: 13px; color: #555; line-height: 1.7; margin-bottom: 6px; }
+.license-en { font-size: 11px !important; color: #aaa !important; }
+.license-badge {
+  display: inline-block; margin-top: 10px;
+  padding: 4px 14px;
+  background: rgba(91,106,240,0.08);
+  border-radius: 14px;
+  font-size: 11px; font-weight: 600;
+  color: #5b6af0; letter-spacing: 0.3px;
+}
+.footer-links { display: flex; gap: 16px; }
+.footer-links a { color: #5b6af0; font-weight: 500; }
+
 /* ── FOOTER ── */
 .footer {
   padding: 28px 0;
